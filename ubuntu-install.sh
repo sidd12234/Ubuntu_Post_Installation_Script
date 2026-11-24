@@ -40,15 +40,15 @@ AUTHOR='Muhammad Ali Siddiqui'
 AUTHOR_TITLE='IT Specialist'
 
 # Root password to set on this workstation (single quotes keep @ etc. as typed).
-ROOT_PASSWORD='Evo@12234'
+ROOT_PASSWORD='#######'
 
 # Network printer to add after CUPS is installed.
-PRINTER_IP='10.65.10.41'
+PRINTER_IP='##########'
 PRINTER_NAME='G18-Printer'     # queue name shown in print dialogs (no spaces)
 
 # Existing LUKS disk-encryption passphrase (set during the Ubuntu install).
 # Clevis needs it once to add the TPM2 key; the passphrase keeps working too.
-LUKS_PASSPHRASE='Evo@123'
+LUKS_PASSPHRASE='########'
 # Clevis TPM2 policy. '{}' = TPM releases the key on this machine without PCR
 # checks. Stricter option: '{"pcr_ids":"7"}' (key only released if the Secure
 # Boot state is unchanged).
